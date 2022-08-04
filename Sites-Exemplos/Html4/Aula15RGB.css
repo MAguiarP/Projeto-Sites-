@@ -1,0 +1,9 @@
+body{
+	background:url("leao.jpg")no-repeat;
+	-webkit-background-size:cover;
+}
+h1{
+
+	color:rgb(102,205,170);
+	background-color:rgb(255,255,255,0.1);
+}

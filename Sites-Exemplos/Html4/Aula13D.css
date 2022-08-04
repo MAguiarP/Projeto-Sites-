@@ -1,0 +1,7 @@
+body{
+	background:url('natureza.jpg')no-repeat;-webkit-background-size:cover;
+}
+	///pode se usar o resolução no final de px, ex: 90px
+h1{
+	background-color:white;
+}

@@ -1,0 +1,66 @@
+<html>
+	<head><title>Formulários</title>
+		<script>
+			function valida(f){
+				if(f.nome.value==""){
+				alert("O campo nome não pode ficar vazio!");
+				return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<B>Preencha o formulário e clique no botão Enviar</B>
+		<P><form action="Form.html" method="post" onsubmit="return valida(this);">
+			<table border="1" cellpadding="4">
+	<tr>
+		<td>Nome:</td>
+			<td><input type="text" size="45" name="nome"></td>
+	</tr>
+	<tr>
+		<td>Sexo:</td>
+		<td>
+			<input type="Radio" name="sexo" value="m" checked>Masculino
+			<input type="Radio" name="sexo" value="f">Feminino
+		</td>
+	</tr>
+	<tr>
+		<td>Cidade:</td>
+			<td><input type="text" size="20" name="cidade">
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Estado:</td>
+			<td> <select name="estado"</td> <option value="0">selecione <option value="SP">SP <option value="RJ">RJ
+		</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="2" align="center"> <b> Quais Objetos a seguir você gosta?</b></td></tr>
+		
+	<tr align="center">
+		<td colspan="2">
+			<input type="checkbox" name="Geladeira" value="Gel">Geladeira &nbsp;
+			<input type="checkbox" name="VideoGame" value="Vg">Video Game &nbsp;
+			<input type="checkbox" name="Celular" value="Cel">Celular &nbsp;
+			<input type="checkbox" name="TV" value="Tv">Televisão &nbsp;
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Mensagem:</td>
+			<td><textarea name"mensagem" rows="4" cols="35">
+			</textarea></td>
+		</tr>
+	</tr>
+	<tr>
+		<td align="center" colspan="2">	<input type="submit" value"Enviar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="Limpar">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

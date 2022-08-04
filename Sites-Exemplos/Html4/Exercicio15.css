@@ -1,0 +1,32 @@
+nav{
+	width:200px;
+	background-color:#999999;
+	padding:5px;
+	border:3px inset black;
+}
+ul{
+	background-color:#000000;
+	padding:6px;
+	border:3px outset blue;
+	margin:0;
+}
+li{
+	list-style:none;
+	paddding:10px 10px;
+	background-color:#666666;
+	margin-bottom:10px;
+	font:20px verdana, arial, sans-serif;
+	text-align:center;
+}
+a:link{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+}
+a:visited{
+	color:#ffffee;
+}
+a:hover{
+	color:#000DDD;
+	background-color:#ffffff;
+}
