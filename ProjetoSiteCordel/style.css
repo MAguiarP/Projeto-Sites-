@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+:root{
+    --fonte: Verdana,Geneva,Tahoma,sans-serif;
+    --fonte2:'Patrick Hand', cursive;
+    --fonte3:'Ephesis', cursive;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 3em;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family:var(--fonte2);
+    font-size: .9em;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+    
+}
+
+section > p{
+    padding-bottom: 1em;
+}
+
+section.normal{
+    
+    color: papayawhip
+}
+
+section.imagem{
+    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.562);
+    color: papayawhip;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    color: peachpuff;
+    background-color: rgba(0, 0, 0, 0.089);
+    text-shadow: 1px 2px 2px black;
+}
+
+section.normal > p {
+    width: 500px;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#I1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#I2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.226);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
