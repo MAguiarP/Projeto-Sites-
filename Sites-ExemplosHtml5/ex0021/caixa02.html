@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(255, 255, 255, 0.521);
+        }
+
+        header{
+            background-color: rgba(138, 140, 141, 0.527);
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: aliceblue;
+            padding: 3px;
+            box-shadow: inset 5px -2px 19px 6px rgba(0, 0, 0, 0.158);
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgba(70, 71, 71, 0.514);
+            padding: 10px;
+            margin: 10px;
+            border-radius:10px 20px;
+            box-shadow: 8px 6px 19px 0px rgba(0, 0, 0, 0.295);;
+        }
+
+        article{
+            background-color: rgba(180, 181, 182, 0.486);
+            padding: 5px;
+        }
+        
+        article > aside{
+            background-color: rgba(146, 158, 158, 0.589);
+           
+        }
+
+        footer{
+        background-color: rgba(165, 194, 184, 0.493);
+        color: rgba(161, 147, 129, 0.521);
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+        }
+
+        footer> p {
+            margin:0px
+        }
+
+        div#bola {
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            Tecnologia Politica Assuntos Gerais
+        </section>
+        <article id="Notícias">
+            <article>
+                <h1>Notícias Teste</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis numquam facilis, natus corrupti expedita ab dignissimos beatae ipsam? Quidem aliquam repellat molestiae natus omnis voluptatem asperiores velit nulla obcaecati.</p>
+                <aside>
+                    <p>Artigo escrito por Matheus Aguiar</p>
+                </aside>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Aguiar</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
