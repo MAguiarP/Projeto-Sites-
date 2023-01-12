@@ -6,4 +6,4 @@ Todos os links para os projetos do repósitorio.
 
 <a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteCordel/cordelmoderno.html" > Executar o Projeto Cordel </a>
 
-<a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteSocial/home.html" > Executar o Projeto Social </a>
+<a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteSocial/social.html" > Executar o Projeto Social </a>
