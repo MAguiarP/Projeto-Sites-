@@ -5,3 +5,5 @@ Todos os links para os projetos do repósitorio.
 <a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteAndroid/android.html"> Executar o Projeto Site Android </a>
 
 <a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteCordel/cordelmoderno.html" > Executar o Projeto Cordel </a>
+
+<a href="https://maguiarp.github.io/Projetos-Sites-/ProjetoSiteSocial/social.html" > Executar o Projeto Cordel </a>
