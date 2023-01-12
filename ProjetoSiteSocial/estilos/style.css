@@ -43,3 +43,23 @@ iframe#tela{
     
 
 }
+
+section#redesociais{
+    text-align: right;
+}
+
+section#redesociais img{
+    width: 40px;
+    margin: 5px;
+    border-radius: 40%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.781);
+
+}
+
+section#redesociais img:hover{
+    border: 2px solid rgba(245, 245, 245, 0.74);
+    transform: translate(-5px, -5px);
+    box-shadow: 3px 3px 4px black;
+    transition: transform .2s;
+
+}
