@@ -45,7 +45,8 @@ iframe#tela{
 }
 
 section#redesociais{
-    text-align: right;
+    display:  flex;
+    flex-direction:  column;
 }
 
 section#redesociais img{
