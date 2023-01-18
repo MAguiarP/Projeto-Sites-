@@ -14,18 +14,10 @@ img{
     height: 0px;
 }
 
-a{
-    display: block;
-    background-color: darkred;
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 a#github{
     display: block;
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.541);
     padding: 5px;
     text-align: center;
     font-weight: bold;
@@ -34,7 +26,7 @@ a#github{
 
 a#instagram{
     display: block;
-    background-color: blueviolet;
+    background-color: rgba(190, 238, 17, 0.445);
     padding: 5px;
     text-align: center;
     font-weight: bold;
@@ -43,7 +35,7 @@ a#instagram{
 
 a#facebook{
     display: block;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.486);
     padding: 5px;
     text-align: center;
     font-weight: bold;
@@ -52,12 +44,21 @@ a#facebook{
 
 a#twitter{
     display: block;
-    background-color: rgb(23, 23, 255) ;
+    background-color: rgba(23, 23, 255, 0.349) ;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#youtube{
+    display: block;
+    background-color:rgba(255, 0, 0, 0.575);
     padding: 5px;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
 }
 a:hover{
-    background-color: rgba(0, 4, 255, 0.452);
+    background-color: rgba(0, 4, 255, 0.199);
 }
