@@ -7,13 +7,25 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo de Formulário output</h1>
-        <form action="cadastro.php" method="get">
-    <p>   
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+    <h1>Exemplo de Formulário</h1>
+    <form action="arquivo.js" method="post" autocomplete="off">
+        <p>
+            <label for="iano">Em que ano você nasceu? </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023"
+            oninput="idade.innerHTML = ano_atual - Number(iano.value)">
+        </p>
+        <p>
+            <label for="idade">Sua idade é:</label>
+            <output id="idade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Excluir">
+        </p>
+    </form>
 
-    </p>
-        </form>
+    <script>
+        let ano_atual = new Date().getFullYear();
+    </script>
 </body>
 </html>
