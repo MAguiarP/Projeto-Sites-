@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="media_query.css">
     <title>MQuery</title>
 </head>
-<body>
+<body onresize="mudouTamanho()" >
     <header>
         <h1>Testando</h1>
      <i id="menu" class="material-symbols-outlined" onclick="clickMenu()" >menu</i>
@@ -33,6 +34,14 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                menus.style.diplay = 'block'
+               }   else {
+                menus.style.diplay = 'none'
+               }
+            }
         function clickMenu(){
             if (menus.style.display === 'none') {
               menus.style.display = 'block';
@@ -40,7 +49,7 @@
                 menus.style.display = 'none';
             }
     
-}
+}   
     </script>
 </body>
 </html>
