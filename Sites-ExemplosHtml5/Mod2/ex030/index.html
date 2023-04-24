@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>MQuery</title>
 </head>
 <body>
     <header>
         <h1>Testando</h1>
-        <menu>
+     <i id="menu" class="material-symbols-outlined" onclick="clickMenu()" >menu</i>
+        <menu id="menus" >
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -30,5 +32,15 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis consequatur atque dicta eligendi officiis explicabo, voluptatum facere dolorem et ipsam numquam deleniti quod consequuntur ut eius sapiente repellendus molestiae placeat!</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if (menus.style.display === 'none') {
+              menus.style.display = 'block';
+            } else {
+                menus.style.display = 'none';
+            }
+    
+}
+    </script>
 </body>
 </html>
